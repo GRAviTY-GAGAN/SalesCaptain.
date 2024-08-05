@@ -1,0 +1,98 @@
+.Tools__mainCont {
+    margin: 2rem 4rem 4rem 4rem;
+}
+
+.Tools__heading h1 {
+    text-align: center;
+    font-size: 70px;
+    color: var(--white);
+}
+
+.Tools__ToolsCont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.Tools__Tool {
+    border: 1px solid var(--bluish-white);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.Tools__SingleTool {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    /* justify-content: center; */
+}
+
+.Tools__SingleTool img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.Tools__SingleTool:nth-last-of-type(1) {
+    margin-bottom: 2rem;
+}
+
+.Tools__ToolsHeading h1 {
+    color: var(--whiteish-blue);
+    font-weight: 500;
+}
+
+.Tools__SingleTool h2 {
+    color: var(--bluish-white);
+    font-weight: 500;
+}
+
+.Tools__heading h1 {
+    font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+    .Tools__mainCont {
+        margin: 1rem;
+    }
+
+    .Tools__heading h1 {
+        font-size: 32px;
+        margin-top: 2rem;
+    }
+
+    .Tools__ToolsCont {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .Tools__SingleTool {
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .Tools__mainCont {
+        margin: 2rem;
+    }
+
+    .Tools__heading h1 {
+        font-size: 62px;
+    }
+
+    .Tools__ToolsCont {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 3rem;
+    }
+
+    .Tools__SingleTool {
+        padding: 1rem 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+}

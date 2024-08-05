@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.App__Navbar {
+  position: sticky;
+  top: 0px;
+  background-color: #030519;
+  z-index: 2;
+}

@@ -1,0 +1,120 @@
+.SignIn__form img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.SignIn__MainCont {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn__form {
+    width: 40%;
+    margin-top: 4rem;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgba(136, 146, 176, 40%);
+    /* border: 1px solid white; */
+    padding: 4rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignIn__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignIn__logo p {
+    font-size: 40px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.SignIn__login {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.SignIn__loginInputsCont {
+    width: 350px;
+    color: black;
+    background-color: #e8f0fe;
+    border: none;
+    margin-bottom: 0.5rem;
+    display: flex;
+    height: 50px;
+}
+
+.SignInIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+input {
+    color: black;
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 1.6rem;
+    font-size: medium;
+    width: 300px;
+    background-color: #e8f0fe;
+}
+
+.signInBTN {
+    background-color: #1976d2;
+    width: 350px;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.forgotPass {
+    margin-top: 1rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.forgotPass:hover {
+    border-bottom: 2px solid var(--white);
+}
+
+@media screen and (max-width:500px) {
+    .SignIn__form {
+        width: 90%;
+        margin-top: 2rem;
+        border-radius: 10px;
+        padding: 2rem;
+    }
+
+    .SignIn__loginInputsCont {
+        width: 290px;
+        padding-right: 10px;
+    }
+
+    .signInBTN {
+        width: 292px;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .SignIn__form {
+        width: 62%;
+    }
+}

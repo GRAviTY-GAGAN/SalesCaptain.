@@ -1,0 +1,148 @@
+.BusinessStandOut__mainCont {
+    margin: 6rem 4rem;
+}
+
+.BusinessStandOut__heading h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.BusinessStandOut__Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    height: 500px;
+}
+
+.BusinessStandOut__Card h1 {
+    font-weight: 500;
+}
+
+.BusinessStandOut__Card h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    line-height: 50px;
+    color: var(--whiteish-blue);
+}
+
+.BusinessStandOut__CardImgCont {
+    width: 40%;
+}
+
+.BusinessStandOut__Card img {
+    width: 100%;
+}
+
+.BusinessStandOut__Card h3 {
+    font-size: 30px;
+    color: var(--bluish-white);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+}
+
+.BusinessStandOut__heading h1 {
+    font-weight: 400;
+}
+
+
+.BusinessStandOut__Card p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.BusinessStandOut__Card:nth-of-type(2n) {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:500px) {
+    .BusinessStandOut__mainCont {
+        margin: 2rem 1rem;
+    }
+
+    .BusinessStandOut__heading h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0rem;
+    }
+
+    .BusinessStandOut__CardImgCont {
+        width: 50%;
+    }
+
+    .BusinessStandOut__Card h1 {
+        font-size: 20px;
+        margin-bottom: 0rem;
+        line-height: 19px;
+    }
+
+    .BusinessStandOut__Card {
+        gap: 1rem;
+        height: 260px;
+        flex-direction: column-reverse;
+    }
+
+    .BusinessStandOut__CardsmainCOnt {
+        margin-top: 6rem;
+    }
+
+    .BusinessStandOut__Card p {
+        font-size: 16px;
+        margin-bottom: 0rem;
+    }
+
+    .BusinessStandOut__Card {
+        gap: 1rem;
+        height: 260px;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+    .BusinessStandOut__Card:nth-of-type(1) {
+        margin-top: -1rem;
+    }
+
+    .BusinessStandOut__Card h3 {
+        font-size: large;
+    }
+
+    .BusinessStandOut__Card:nth-of-type(2n) {
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .BusinessStandOut__CardImgCont {
+        width: 60%;
+    }
+
+    .BusinessStandOut__Card h1 {
+        font-size: 35px;
+        margin-bottom: 1rem;
+        line-height: 40px;
+        color: var(--whiteish-blue);
+    }
+
+    .BusinessStandOut__Card {
+        height: 300px;
+    }
+
+    .BusinessStandOut__mainCont {
+        margin: 0rem 2rem;
+    }
+
+    .BusinessStandOut__Card p {
+        font-size: 18px;
+        margin-bottom: 0rem;
+    }
+
+    .BusinessStandOut__Card h3 {
+        font-size: 20px;
+    }
+
+}

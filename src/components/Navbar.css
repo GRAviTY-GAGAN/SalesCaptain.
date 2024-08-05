@@ -1,0 +1,166 @@
+.Navbar__mainCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* border: 1px solid white; */
+    background-color: #030519;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.Navbar__Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.Navbar__Logo span {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--white)
+}
+
+.Navbar__Logo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.Navbar__navItems {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-top: 5px;
+
+}
+
+.Navbar__navItems div {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.Navbar__navItems div:nth-last-of-type(1) {
+    display: none;
+}
+
+.Navbar__navItems div:hover {
+    border-bottom: 2px solid var(--red);
+}
+
+.Navbar__Signin {
+    display: flex;
+    gap: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Navbar__Signin div {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.Navbar__Signin div:hover {
+    border-bottom: 2px solid var(--red);
+}
+
+a {
+    text-decoration: none;
+}
+
+.Navbar__HOME {
+    margin-right: 10px;
+    width: fit-content;
+    font-size: large;
+}
+
+.Nav__MobNav {
+    transition: all 0.25s linear;
+    background-color: #030519;
+    position: absolute;
+    z-index: -10;
+}
+
+.Nav__MobNav div {
+    padding: 1rem;
+
+    width: 100vw;
+}
+
+.Nav__MobNav div:hover {
+    background-color: rgba(136, 146, 176, 40%);
+
+}
+
+.Hamburger {
+    display: none;
+}
+
+.hide {
+    top: -280px;
+}
+
+.show {
+    top: 70px
+}
+
+@media screen and (max-width:500px) {
+    .Navbar__navItems {
+        display: none;
+    }
+
+    .Hamburger {
+        display: block;
+    }
+
+    .Navbar__Signin {
+        display: none;
+    }
+
+    .Navbar__Logo img {
+        width: 30px;
+    }
+
+    .Navbar__Logo span {
+        font-size: 20px;
+    }
+
+    .Navbar__Logo {
+        gap: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .Navbar__navItems {
+        display: none;
+    }
+
+    .Navbar__Signin {
+        display: none;
+    }
+
+    .Hamburger {
+        display: block;
+    }
+
+    .Navbar__Logo img {
+        width: 30px;
+    }
+
+    .Navbar__Logo span {
+        font-size: 20px;
+    }
+
+    .Navbar__Logo {
+        gap: 0.5rem;
+    }
+
+}

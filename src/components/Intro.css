@@ -1,0 +1,145 @@
+.Intro__mainCont {
+    margin: 6rem 4rem 4rem 4rem;
+    display: flex;
+    color: #ccd6f6;
+}
+
+.Intro__ImgCont {
+    width: 50%;
+}
+
+
+.Intro__leftCont {
+    width: 50%;
+}
+
+.Intro__leftCont h1 {
+    font-size: 70px;
+    color: #ccd6f6;
+    line-height: 80px;
+}
+
+.Intro__leftCont p {
+    font-size: 20px;
+    color: #8892b0;
+    padding: 2rem 3rem 0 0;
+}
+
+.Intro__Demo {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.Intro__Demo button {
+    background-color: transparent;
+    border: none;
+    background-color: rgba(136, 146, 176, 40%);
+    padding: 0rem 2rem;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 500;
+    cursor: pointer;
+    height: 42px;
+
+}
+
+
+
+.Intro__Demo input {
+    background-color: rgba(248, 249, 250, 20%);
+    border: 1px solid var(--white);
+    font-size: larger;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 400px;
+}
+
+.Intro__Demo input::placeholder {
+    color: var(--white);
+    outline: none;
+}
+
+.Intro__ImgCont img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.Intro__leftCont h1 {
+    font-weight: 500;
+}
+
+@media screen and (max-width:500px) {
+    .Intro__mainCont {
+        margin: 1rem;
+        display: block;
+    }
+
+    .Intro__leftCont h1 {
+        font-size: 35px;
+        color: #ccd6f6;
+        line-height: 37px;
+    }
+
+    .Intro__leftCont p {
+        font-size: 18px;
+        color: #8892b0;
+        padding: 1rem 0;
+    }
+
+    .Intro__leftCont {
+        width: 100%;
+    }
+
+    .Intro__Demo input {
+        margin: 0;
+        width: 210px;
+    }
+
+    .Intro__Demo button {
+        padding: 0.6rem 1rem;
+        font-size: small;
+    }
+
+    .Intro__ImgCont {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .Intro__mainCont {
+        margin: 2rem;
+        display: block;
+    }
+
+    .Intro__leftCont {
+        width: 100%;
+    }
+
+    .Intro__Demo {
+        margin-top: 0rem;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .Intro__leftCont p {
+        font-size: 20px;
+        color: #8892b0;
+        padding: 2rem 0;
+    }
+
+    .Intro__Demo input {
+        margin: 0;
+        margin-top: 4px;
+        width: 420px;
+    }
+
+    .Intro__ImgCont {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+}

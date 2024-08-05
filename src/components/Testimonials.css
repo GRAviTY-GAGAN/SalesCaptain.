@@ -1,0 +1,162 @@
+.Testimonials__mainCont {
+    margin: 4rem;
+}
+
+.Testimonials__Heading h1 {
+    font-size: 70px;
+    margin-bottom: 4rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.Testimonials__Testimonials>div {
+    display: flex;
+    border: 1px solid var(--bluish-white);
+    gap: 4rem;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.Testimonial__Name h3 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: var(--whiteish-blue);
+}
+
+.Testimonial__Name p {
+    font-size: large;
+    letter-spacing: 1px;
+    color: var(--bluish-white);
+}
+
+.Testimonial__Desc {
+    font-size: xx-large;
+    margin-top: 1rem;
+    color: var(--white);
+}
+
+.Testimonial__PercentMainCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.Testimonial__PercentMainCont>div h1 {
+    font-size: 70px;
+    text-align: center;
+    color: var(--whiteish-blue);
+}
+
+.Testimonials__product {
+    cursor: pointer;
+}
+
+.Testimonial__PercentMainCont>div p {
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+}
+
+.Testimonials__ProductsUsed {
+    margin-top: 1rem;
+}
+
+.Testimonials__Img img {
+    width: 242px;
+}
+
+.Testimonials__ProductsCont {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.Testimonials__ProductsCont>div {
+    background-color: rgba(136, 146, 176, 60%);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.Testimonials__ProductsCont>div:hover {
+    background-color: rgba(136, 146, 176, 100%);
+}
+
+.Testimonials__Heading h1 {
+    font-weight: 400;
+}
+
+.Testimonial__Name h3 {
+    font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+    .Testimonials__mainCont {
+        margin: 1rem;
+    }
+
+    .Testimonials__Img img {
+        width: 70px;
+    }
+
+    .Testimonial__Desc {
+        font-size: 18px;
+        margin-top: 0rem;
+    }
+
+    .Testimonial__PercentMainCont {
+        display: block;
+    }
+
+    .Testimonials__ProductsCont {
+        display: flex;
+        gap: 1rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .Testimonials__Testimonials>div {
+        display: block;
+        border: 1px solid var(--bluish-white);
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .Testimonials__Heading h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px) {
+    .Testimonials__Testimonials>div {
+        display: block;
+    }
+
+    .Testimonials__Img img {
+        width: 160px;
+    }
+
+    .Testimonial__PercentMainCont {
+        display: block;
+    }
+
+    .productsUsed {
+        text-align: left;
+    }
+
+    .Testimonials__ProductsCont {
+        gap: 1rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Testimonials__mainCont {
+        margin: 2rem;
+    }
+
+}
